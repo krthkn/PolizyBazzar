@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="21" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-06T14:53:52 IST" name="Default suite" finished-at="2021-05-06T14:54:57 IST" duration-ms="64451">
+    <groups>
+      <group name="Regression">
+        <method signature="CarInsuranceErrorMessageTest.chooseFuelTypeTest()[pri:6, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="chooseFuelTypeTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="clickCarInsuranceTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.clickProceedButtonTest()[pri:2, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="clickProceedButtonTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.fillDetailsTest()[pri:9, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="fillDetailsTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectCarBrandTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarModelTest()[pri:5, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectCarModelTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarVariantTest()[pri:7, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectCarVariantTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCityTest()[pri:3, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectCityTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectYearTest()[pri:8, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectYearTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.takeScreenshotTest()[pri:10, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="takeScreenshotTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceFieldValidation.chooseFuelTypeTest()[pri:6, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="chooseFuelTypeTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="clickCarInsuranceTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.clickProceedButtonTest()[pri:2, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="clickProceedButtonTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.fillDetailsTest()[pri:9, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="fillDetailsTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectCarBrandTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectCarModelTest()[pri:5, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectCarModelTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectCarVariantTest()[pri:7, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectCarVariantTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectCityTest()[pri:3, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectCityTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectYearTest()[pri:8, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectYearTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.takeScreenshotTest()[pri:10, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="takeScreenshotTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="TravelInsuranceDetailsTest.checkExcelData(java.lang.String)[pri:2, instance:testcases.TravelInsuranceDetailsTest@51850751]" name="checkExcelData" class="testcases.TravelInsuranceDetailsTest"/>
+        <method signature="TravelInsuranceDetailsTest.homePageTitle()[pri:1, instance:testcases.TravelInsuranceDetailsTest@51850751]" name="homePageTitle" class="testcases.TravelInsuranceDetailsTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CarInsuranceErrorMessageTest.clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="clickCarInsuranceTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectCarBrandTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceFieldValidation.clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="clickCarInsuranceTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectCarBrandTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="HealthInsuranceMenuItemsTest.listValuesTest()[pri:1, instance:testcases.HealthInsuranceMenuItemsTest@77602954]" name="listValuesTest" class="testcases.HealthInsuranceMenuItemsTest"/>
+        <method signature="TravelInsuranceDetailsTest.homePageTitle()[pri:1, instance:testcases.TravelInsuranceDetailsTest@51850751]" name="homePageTitle" class="testcases.TravelInsuranceDetailsTest"/>
+      </group> <!-- Smoke -->
+      <group name="Default">
+        <method signature="CarInsuranceErrorMessageTest.chooseFuelTypeTest()[pri:6, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="chooseFuelTypeTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="clickCarInsuranceTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.clickProceedButtonTest()[pri:2, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="clickProceedButtonTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.fillDetailsTest()[pri:9, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="fillDetailsTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectCarBrandTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarModelTest()[pri:5, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectCarModelTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarVariantTest()[pri:7, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectCarVariantTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCityTest()[pri:3, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectCityTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectYearTest()[pri:8, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="selectYearTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.takeScreenshotTest()[pri:10, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" name="takeScreenshotTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceFieldValidation.chooseFuelTypeTest()[pri:6, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="chooseFuelTypeTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="clickCarInsuranceTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.clickProceedButtonTest()[pri:2, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="clickProceedButtonTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.fillDetailsTest()[pri:9, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="fillDetailsTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectCarBrandTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectCarModelTest()[pri:5, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectCarModelTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectCarVariantTest()[pri:7, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectCarVariantTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectCityTest()[pri:3, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectCityTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.selectYearTest()[pri:8, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="selectYearTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="CarInsuranceFieldValidation.takeScreenshotTest()[pri:10, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" name="takeScreenshotTest" class="testcases.CarInsuranceFieldValidation"/>
+        <method signature="HealthInsuranceMenuItemsTest.listValuesTest()[pri:1, instance:testcases.HealthInsuranceMenuItemsTest@77602954]" name="listValuesTest" class="testcases.HealthInsuranceMenuItemsTest"/>
+        <method signature="TravelInsuranceDetailsTest.checkExcelData(java.lang.String)[pri:2, instance:testcases.TravelInsuranceDetailsTest@51850751]" name="checkExcelData" class="testcases.TravelInsuranceDetailsTest"/>
+        <method signature="TravelInsuranceDetailsTest.homePageTitle()[pri:1, instance:testcases.TravelInsuranceDetailsTest@51850751]" name="homePageTitle" class="testcases.TravelInsuranceDetailsTest"/>
+      </group> <!-- Default -->
+    </groups>
+    <test started-at="2021-05-06T14:53:52 IST" name="Default test" finished-at="2021-05-06T14:54:57 IST" duration-ms="64451">
+      <class name="testcases.CarInsuranceErrorMessageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:48 IST" name="setup" finished-at="2021-05-06T14:54:48 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:48 IST" name="clickCarInsuranceTest" finished-at="2021-05-06T14:54:49 IST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCarInsuranceTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:49 IST" name="flushReports" finished-at="2021-05-06T14:54:49 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="clickProceedButtonTest()[pri:2, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:49 IST" name="clickProceedButtonTest" finished-at="2021-05-06T14:54:50 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedButtonTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:50 IST" name="flushReports" finished-at="2021-05-06T14:54:50 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCityTest()[pri:3, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:50 IST" name="selectCityTest" finished-at="2021-05-06T14:54:51 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCityTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:51 IST" name="flushReports" finished-at="2021-05-06T14:54:51 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:51 IST" name="selectCarBrandTest" finished-at="2021-05-06T14:54:51 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCarBrandTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:51 IST" name="flushReports" finished-at="2021-05-06T14:54:51 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCarModelTest()[pri:5, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:51 IST" name="selectCarModelTest" finished-at="2021-05-06T14:54:51 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCarModelTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:51 IST" name="flushReports" finished-at="2021-05-06T14:54:52 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="chooseFuelTypeTest()[pri:6, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:52 IST" name="chooseFuelTypeTest" finished-at="2021-05-06T14:54:52 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseFuelTypeTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:52 IST" name="flushReports" finished-at="2021-05-06T14:54:52 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCarVariantTest()[pri:7, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:52 IST" name="selectCarVariantTest" finished-at="2021-05-06T14:54:52 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCarVariantTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:52 IST" name="flushReports" finished-at="2021-05-06T14:54:52 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectYearTest()[pri:8, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:52 IST" name="selectYearTest" finished-at="2021-05-06T14:54:53 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectYearTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:53 IST" name="flushReports" finished-at="2021-05-06T14:54:53 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="fillDetailsTest()[pri:9, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:53 IST" name="fillDetailsTest" finished-at="2021-05-06T14:54:54 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetailsTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:54 IST" name="flushReports" finished-at="2021-05-06T14:54:54 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="takeScreenshotTest()[pri:10, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:54 IST" name="takeScreenshotTest" finished-at="2021-05-06T14:54:54 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@64df9a61]" started-at="2021-05-06T14:54:54 IST" name="flushReports" finished-at="2021-05-06T14:54:54 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testcases.CarInsuranceErrorMessageTest -->
+      <class name="testcases.TravelInsuranceDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TravelInsuranceDetailsTest@51850751]" started-at="2021-05-06T14:53:43 IST" name="setup" finished-at="2021-05-06T14:53:52 IST" duration-ms="9012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageTitle()[pri:1, instance:testcases.TravelInsuranceDetailsTest@51850751]" started-at="2021-05-06T14:53:52 IST" name="homePageTitle" finished-at="2021-05-06T14:54:03 IST" duration-ms="11148" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OSKC24QG', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\RAGNAROK\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: df5c80f6662df39debeeeda88f225c8e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OSKC24QG', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\RAGNAROK\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: df5c80f6662df39debeeeda88f225c8e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at pages.HomePage.clickTravelInsurance(HomePage.java:24)
+at testcases.TravelInsuranceDetailsTest.homePageTitle(TravelInsuranceDetailsTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitle -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.TravelInsuranceDetailsTest@51850751]" started-at="2021-05-06T14:54:03 IST" name="flushReports" finished-at="2021-05-06T14:54:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="checkExcelData(java.lang.String)[pri:2, instance:testcases.TravelInsuranceDetailsTest@51850751]" started-at="2021-05-06T14:54:04 IST" name="checkExcelData" data-provider="dp" finished-at="2021-05-06T14:54:14 IST" duration-ms="10061" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[France]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/section/div[2]/section/div[2]/article/ul/li[3]/a"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OSKC24QG', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\RAGNAROK\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: df5c80f6662df39debeeeda88f225c8e
+*** Element info: {Using=xpath, value=/html/body/div[2]/section/div[2]/section/div[2]/article/ul/li[3]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/section/div[2]/section/div[2]/article/ul/li[3]/a"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OSKC24QG', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\RAGNAROK\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: df5c80f6662df39debeeeda88f225c8e
+*** Element info: {Using=xpath, value=/html/body/div[2]/section/div[2]/section/div[2]/article/ul/li[3]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pages.TravelInsurancePage.clickStudent(TravelInsurancePage.java:36)
+at testcases.TravelInsuranceDetailsTest.clickStudent(TravelInsuranceDetailsTest.java:68)
+at testcases.TravelInsuranceDetailsTest.checkExcelData(TravelInsuranceDetailsTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExcelData -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.TravelInsuranceDetailsTest@51850751]" started-at="2021-05-06T14:54:15 IST" name="flushReports" finished-at="2021-05-06T14:54:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="checkExcelData(java.lang.String)[pri:2, instance:testcases.TravelInsuranceDetailsTest@51850751]" started-at="2021-05-06T14:54:15 IST" name="checkExcelData" data-provider="dp" finished-at="2021-05-06T14:54:25 IST" duration-ms="10024" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Italy]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/section/div[2]/section/div[2]/article/ul/li[3]/a"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OSKC24QG', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\RAGNAROK\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: df5c80f6662df39debeeeda88f225c8e
+*** Element info: {Using=xpath, value=/html/body/div[2]/section/div[2]/section/div[2]/article/ul/li[3]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/section/div[2]/section/div[2]/article/ul/li[3]/a"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OSKC24QG', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\RAGNAROK\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: df5c80f6662df39debeeeda88f225c8e
+*** Element info: {Using=xpath, value=/html/body/div[2]/section/div[2]/section/div[2]/article/ul/li[3]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pages.TravelInsurancePage.clickStudent(TravelInsurancePage.java:36)
+at testcases.TravelInsuranceDetailsTest.clickStudent(TravelInsuranceDetailsTest.java:68)
+at testcases.TravelInsuranceDetailsTest.checkExcelData(TravelInsuranceDetailsTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExcelData -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.TravelInsuranceDetailsTest@51850751]" started-at="2021-05-06T14:54:25 IST" name="flushReports" finished-at="2021-05-06T14:54:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testcases.TravelInsuranceDetailsTest -->
+      <class name="testcases.HealthInsuranceMenuItemsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HealthInsuranceMenuItemsTest@77602954]" started-at="2021-05-06T14:54:54 IST" name="setup" finished-at="2021-05-06T14:54:55 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="listValuesTest()[pri:1, instance:testcases.HealthInsuranceMenuItemsTest@77602954]" started-at="2021-05-06T14:54:55 IST" name="listValuesTest" finished-at="2021-05-06T14:54:56 IST" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listValuesTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.HealthInsuranceMenuItemsTest@77602954]" started-at="2021-05-06T14:54:56 IST" name="flushReports" finished-at="2021-05-06T14:54:57 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.HealthInsuranceMenuItemsTest@77602954]" started-at="2021-05-06T14:55:01 IST" name="closeBrowser" finished-at="2021-05-06T14:55:01 IST" duration-ms="139" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OSKC24QG', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\RAGNAROK\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2148c42ad12cc6f8f47de461412c4a41]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OSKC24QG', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\RAGNAROK\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2148c42ad12cc6f8f47de461412c4a41
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at testcases.HealthInsuranceMenuItemsTest.closeBrowser(HealthInsuranceMenuItemsTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:351)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.HealthInsuranceMenuItemsTest -->
+      <class name="testcases.CarInsuranceFieldValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:25 IST" name="setup" finished-at="2021-05-06T14:54:35 IST" duration-ms="9983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:35 IST" name="clickCarInsuranceTest" finished-at="2021-05-06T14:54:39 IST" duration-ms="4633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCarInsuranceTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:39 IST" name="flushReports" finished-at="2021-05-06T14:54:40 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="clickProceedButtonTest()[pri:2, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:40 IST" name="clickProceedButtonTest" finished-at="2021-05-06T14:54:41 IST" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedButtonTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:41 IST" name="flushReports" finished-at="2021-05-06T14:54:41 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCityTest()[pri:3, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:41 IST" name="selectCityTest" finished-at="2021-05-06T14:54:42 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCityTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:42 IST" name="flushReports" finished-at="2021-05-06T14:54:42 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:42 IST" name="selectCarBrandTest" finished-at="2021-05-06T14:54:43 IST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCarBrandTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:43 IST" name="flushReports" finished-at="2021-05-06T14:54:43 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCarModelTest()[pri:5, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:43 IST" name="selectCarModelTest" finished-at="2021-05-06T14:54:43 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCarModelTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:43 IST" name="flushReports" finished-at="2021-05-06T14:54:43 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="chooseFuelTypeTest()[pri:6, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:43 IST" name="chooseFuelTypeTest" finished-at="2021-05-06T14:54:44 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseFuelTypeTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:44 IST" name="flushReports" finished-at="2021-05-06T14:54:44 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCarVariantTest()[pri:7, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:44 IST" name="selectCarVariantTest" finished-at="2021-05-06T14:54:45 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCarVariantTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:45 IST" name="flushReports" finished-at="2021-05-06T14:54:45 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectYearTest()[pri:8, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:45 IST" name="selectYearTest" finished-at="2021-05-06T14:54:45 IST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectYearTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:45 IST" name="flushReports" finished-at="2021-05-06T14:54:45 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="fillDetailsTest()[pri:9, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:45 IST" name="fillDetailsTest" finished-at="2021-05-06T14:54:47 IST" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetailsTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:47 IST" name="flushReports" finished-at="2021-05-06T14:54:47 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="takeScreenshotTest()[pri:10, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:47 IST" name="takeScreenshotTest" finished-at="2021-05-06T14:54:48 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:48 IST" name="flushReports" finished-at="2021-05-06T14:54:48 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.CarInsuranceFieldValidation@3ce3db41]" started-at="2021-05-06T14:54:57 IST" name="closeBrowser" finished-at="2021-05-06T14:55:01 IST" duration-ms="4192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.CarInsuranceFieldValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
